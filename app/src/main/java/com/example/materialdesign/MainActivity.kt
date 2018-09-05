@@ -15,10 +15,8 @@ class MainActivity : AppCompatActivity() {
     }
 
     // Chamando a activity com a referência Floating Action Button
-    fun callIntentFloatingActionButton() {
-        val buttonIntentButtonFab = button_call_intent_button_fab
-
-        buttonIntentButtonFab.setOnClickListener {
+    private fun callIntentFloatingActionButton() {
+        button_call_intent_button_fab.setOnClickListener {
             val intent = Intent(this@MainActivity, FloatingActionButtonActivity::class.java)
             startActivity(intent)
         }

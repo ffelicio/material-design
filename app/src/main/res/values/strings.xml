@@ -1,5 +1,20 @@
 <resources>
     <string name="app_name">MaterialDesign</string>
-    <string name="txtApresentacao">Estudo Material Design - Button</string>
+
+    <!-- MainActivity -->
+    <string name="txtApresentacao">MD - Button</string>
     <string name="txtBotaoFloatingActionButton">Botão - FAB</string>
+
+    <!-- FloatingActionButtonActivity -->
+    <string name="txtApresentacaoBotaoFloatingActionButton">MD - Button FAB</string>
+    <string name="txtApresentacaoTextField">MD - Text Field</string>
+
+    <!-- SingleLineTextFieldActivity -->
+    <string name="txtLabelEditText">Nome</string>
+    <string name="txtHintEditText">Digite seu nome</string>
+    <string name="txtBotaoTextFieldmultiline">TextField Multiline</string>
+
+    <!-- MultiLineTextFieldActivity -->
+    <string name="txtViewMultilineFieldText">MD - Multiline Text Field</string>
+    <string name="txtViewInformacaoUsuario">digite sua informação</string>
 </resources>

@@ -16,7 +16,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".FloatingActionButtonActivity"></activity>
+        <activity android:name=".FloatingActionButtonActivity" />
+        <activity android:name=".SingleLineTextFieldActivity" />
+        <activity android:name=".MultiLineTextFieldActivity"></activity>
     </application>
 
 </manifest>
