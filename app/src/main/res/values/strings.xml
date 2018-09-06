@@ -3,6 +3,7 @@
 
     <!-- General -->
     <string name="labelButtonReturnToMainActivity">Voltar</string>
+    <string name="labelButtonShowInformation">Mostrar dados</string>
 
     <!-- MainActivity -->
     <string name="txtPresentation">Estudos - Material Design</string>
@@ -13,16 +14,16 @@
 
     <!-- FloatingActionButtonActivity -->
     <string name="txtPresentationButtonFloatingActionButton">MD - Button FAB</string>
-    <string name="txtPresentationTextField">MD - Text Field</string>
 
     <!-- SingleLineTextFieldActivity -->
+    <string name="txtPresentationTextField">MD - Text Field</string>
     <string name="txtLabelTextViewNormal">Normal</string>
     <string name="txtHintEditTextNormal">Hint Text - Normal</string>
     <string name="txtLabelTextViewFocus">Focus</string>
     <string name="txtHintEditTextFocus">Hint Text - Focus</string>
     <string name="txtLabelTextViewDisabled">Disabled</string>
     <string name="txtHintEditTextDisabled">Hint Text - Disabled</string>
-    <string name="labelButtonShowInformation">Mostrar dados</string>
 
     <!-- MultiLineTextFieldActivity -->
+    <string name="txtPresentationMultilineTextField">MD - Multi Line Text Field</string>
 </resources>
