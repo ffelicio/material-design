@@ -13,7 +13,7 @@ class FloatingActionButtonActivity : AppCompatActivity() {
         setContentView(R.layout.activity_floating_action_button)
 
         showToastInFloatButtonClick()
-        callIntentMain()
+        returnToMainActivity()
     }
 
     private fun showToastInFloatButtonClick() {
@@ -22,7 +22,7 @@ class FloatingActionButtonActivity : AppCompatActivity() {
         }
     }
 
-    private fun callIntentMain() {
+    private fun returnToMainActivity() {
         button_call_activity_main.setOnClickListener {
             Toast.makeText(this, "Retornando para a tela inicial", Toast.LENGTH_SHORT).show()
 

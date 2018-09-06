@@ -12,9 +12,13 @@
         <item name="colorBackgroundFloating">@color/colorMediumSpringGreen</item>
     </style>
 
-    <style name="MyEditText" parent="Theme.AppCompat.Light">
+    <style name="MyEditTextNormal" parent="Theme.AppCompat.Light">
         <item name="colorControlNormal">@color/indigo</item>
         <item name="colorControlActivated">@color/pink</item>
     </style>
 
+    <style name="MyEditTextFocus" parent="Theme.AppCompat.Light">
+        <item name="colorControlNormal">@color/mediumSlateBlue</item>
+        <item name="colorControlActivated">@color/purple</item>
+    </style>
 </resources>

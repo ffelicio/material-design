@@ -13,50 +13,146 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="40dp"
         android:layout_marginEnd="8dp"
-        android:text="@string/txtApresentacaoTextField"
+        android:text="@string/txtPresentationTextField"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.506"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/txtLabelTextField"
-        android:layout_width="wrap_content"
+        android:id="@+id/textViewNormal"
+        android:layout_width="80dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="120dp"
-        android:text="@string/txtLabelEditText"
+        android:layout_marginTop="48dp"
+        android:text="@string/txtLabelTextViewNormal"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <TextView
+        android:id="@+id/textViewFocus"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="96dp"
+        android:text="@string/txtLabelTextViewFocus"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <TextView
+        android:id="@+id/textViewDisabled"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="144dp"
+        android:text="@string/txtLabelTextViewDisabled"
         android:textSize="20sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 
     <EditText
-        android:id="@+id/editTextNome"
-        android:layout_width="0dp"
+        android:id="@+id/editTextNormal"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="108dp"
-        android:layout_marginEnd="16dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="4dp"
         android:ems="10"
-        android:hint="@string/txtHintEditText"
-        android:inputType="text"
-        android:theme="@style/MyEditText"
+        android:hint="@string/txtHintEditTextNormal"
+        android:inputType="textPersonName"
+        android:theme="@style/MyEditTextNormal"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toEndOf="@+id/txtLabelTextField"
+        app:layout_constraintStart_toEndOf="@+id/textViewNormal"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 
-    <Button
-        android:id="@+id/button_call_intent_multiline_text_field"
+    <EditText
+        android:id="@+id/editTextFocus"
         android:layout_width="wrap_content"
-        android:layout_height="44dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="168dp"
-        android:layout_marginEnd="8dp"
-        android:text="@string/txtBotaoTextFieldmultiline"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="88dp"
+        android:layout_marginEnd="4dp"
+        android:ems="10"
+        android:hint="@string/txtHintEditTextFocus"
+        android:inputType="textPersonName"
+        android:theme="@style/MyEditTextFocus"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textViewFocus"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <EditText
+        android:id="@+id/editTextDisabled"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="132dp"
+        android:layout_marginEnd="4dp"
+        android:ems="10"
+        android:hint="@string/txtHintEditTextDisabled"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textViewDisabled"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginEnd="32dp"
+        android:background="?android:attr/listDivider"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextNome" />
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <TextView
+        android:id="@+id/text_view_information_normal"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        android:text=""
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/divider" />
+
+    <TextView
+        android:id="@+id/text_view_information_focus"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        android:text=""
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_view_information_normal" />
+
+    <Button
+        android:id="@+id/button_show_information_fields"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="156dp"
+        android:layout_marginEnd="32dp"
+        android:text="@string/labelButtonShowInformation"
+        app:layout_constraintEnd_toStartOf="@+id/button_call_activity_main"
+        app:layout_constraintHorizontal_chainStyle="spread_inside"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextDisabled" />
+
+    <Button
+        android:id="@+id/button_call_activity_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="156dp"
+        android:layout_marginEnd="32dp"
+        android:text="@string/labelButtonReturnToMainActivity"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/button_show_information_fields"
+        app:layout_constraintTop_toBottomOf="@+id/editTextDisabled" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

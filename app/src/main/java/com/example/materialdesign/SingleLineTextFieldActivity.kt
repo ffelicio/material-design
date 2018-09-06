@@ -2,7 +2,7 @@ package com.example.materialdesign
 
 import android.content.Intent
 import android.os.Bundle
-import android.util.Log
+import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import kotlinx.android.synthetic.main.activity_single_line_text_field.*
 
@@ -12,20 +12,25 @@ class SingleLineTextFieldActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_single_line_text_field)
 
-        callIntentMultilineTextField()
+        showValuesInEditText()
+        returnToMainActivity()
     }
 
-    private fun callIntentMultilineTextField() {
-        button_call_intent_multiline_text_field.setOnClickListener {
-            val nome = editTextNome?.text.toString()
+    private fun showValuesInEditText() {
+        button_show_information_fields.setOnClickListener {
+            val fieldEditTextNormal = editTextNormal.text.toString()
+            val fieldEditTextFocus = editTextFocus.text.toString()
 
-            Log.d("TESTE", "Enviando o '${nome}' para a activity MultiLineTextFieldActivity")
+            text_view_information_normal.text = fieldEditTextNormal.trim()
+            text_view_information_focus.text = fieldEditTextFocus.trim()
+        }
+    }
 
-            val intent = Intent(this, MultiLineTextFieldActivity::class.java)
+    private fun returnToMainActivity() {
+        button_call_activity_main.setOnClickListener {
+            Toast.makeText(this, "Retornando para a tela inicial", Toast.LENGTH_SHORT).show()
 
-            // Setando o valor da variável para enviar para a activity
-            intent.putExtra("nome", nome)
-
+            val intent = Intent(this, MainActivity::class.java)
             startActivity(intent)
         }
     }

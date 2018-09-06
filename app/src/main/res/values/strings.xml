@@ -1,26 +1,28 @@
 <resources>
     <string name="app_name">MaterialDesign</string>
 
-    <!-- Geral -->
-    <string name="labelBotaoRetornarMainActivity">Voltar</string>
+    <!-- General -->
+    <string name="labelButtonReturnToMainActivity">Voltar</string>
 
     <!-- MainActivity -->
-    <string name="txtApresentacao">Estudos - Material Design</string>
-    <string name="labelBotaoFloatingActionButton">Float Action Button</string>
-    <string name="labelBotaoSingleTextField">Single Text Field</string>
-    <string name="labelBotaoMultiLineText">Multi Line Text</string>
-    <string name="labelBotaoFullWidthText">Full Width Text</string>
+    <string name="txtPresentation">Estudos - Material Design</string>
+    <string name="labelButtonFloatingActionButton">Float Action Button</string>
+    <string name="labelButtonSingleTextField">Single Text Field</string>
+    <string name="labelButtonMultiLineText">Multi Line Text</string>
+    <string name="labelButtonFullWidthText">Full Width Text</string>
 
     <!-- FloatingActionButtonActivity -->
-    <string name="txtApresentacaoBotaoFloatingActionButton">MD - Button FAB</string>
-    <string name="txtApresentacaoTextField">MD - Text Field</string>
+    <string name="txtPresentationButtonFloatingActionButton">MD - Button FAB</string>
+    <string name="txtPresentationTextField">MD - Text Field</string>
 
     <!-- SingleLineTextFieldActivity -->
-    <string name="txtLabelEditText">Nome</string>
-    <string name="txtHintEditText">Digite seu nome</string>
-    <string name="txtBotaoTextFieldmultiline">TextField Multiline</string>
+    <string name="txtLabelTextViewNormal">Normal</string>
+    <string name="txtHintEditTextNormal">Hint Text - Normal</string>
+    <string name="txtLabelTextViewFocus">Focus</string>
+    <string name="txtHintEditTextFocus">Hint Text - Focus</string>
+    <string name="txtLabelTextViewDisabled">Disabled</string>
+    <string name="txtHintEditTextDisabled">Hint Text - Disabled</string>
+    <string name="labelButtonShowInformation">Mostrar dados</string>
 
     <!-- MultiLineTextFieldActivity -->
-    <string name="txtViewMultilineFieldText">MD - Multiline Text Field</string>
-    <string name="txtViewInformacaoUsuario">digite sua informação</string>
 </resources>

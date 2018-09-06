@@ -13,7 +13,7 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="40dp"
         android:layout_marginEnd="8dp"
-        android:text="@string/txtViewMultilineFieldText"
+        android:text="Text"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.506"
@@ -37,7 +37,7 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="100dp"
         android:layout_marginEnd="8dp"
-        android:text="@string/txtViewInformacaoUsuario"
+        android:text="Text"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/txtlabelNomeUsuario"
         app:layout_constraintTop_toBottomOf="@+id/textView" />

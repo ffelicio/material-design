@@ -14,7 +14,7 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="8dp"
-        android:text="@string/txtApresentacao"
+        android:text="@string/txtPresentation"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.502"
@@ -27,7 +27,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="4dp"
         android:layout_marginTop="32dp"
-        android:text="@string/labelBotaoFloatingActionButton"
+        android:text="@string/labelButtonFloatingActionButton"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 
@@ -38,7 +38,7 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="32dp"
         android:layout_marginEnd="4dp"
-        android:text="@string/labelBotaoSingleTextField"
+        android:text="@string/labelButtonSingleTextField"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/button_call_activity_floating_action_button"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
@@ -49,7 +49,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="4dp"
         android:layout_marginTop="16dp"
-        android:text="@string/labelBotaoMultiLineText"
+        android:text="@string/labelButtonMultiLineText"
         app:layout_constraintHorizontal_chainStyle="packed"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button_call_activity_floating_action_button" />
@@ -61,7 +61,7 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="4dp"
-        android:text="@string/labelBotaoFullWidthText"
+        android:text="@string/labelButtonFullWidthText"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/button_call_activity_multi_line_text_field"
         app:layout_constraintTop_toBottomOf="@+id/button_call_activity_single_line_text_field" />

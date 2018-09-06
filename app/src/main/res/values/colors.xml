@@ -8,4 +8,7 @@
 
     <color name="indigo">#4B0082</color>
     <color name="pink">#FFC0CB</color>
+
+    <color name="mediumSlateBlue">#7B68EE</color>
+    <color name="purple">#800080</color>
 </resources>
