@@ -12,12 +12,28 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         callIntentFloatingActionButton()
+        callIntentSingleLineTextField()
+        callIntentMultiLineTextField()
     }
 
     // Chamando a activity com a referência Floating Action Button
     private fun callIntentFloatingActionButton() {
-        button_call_intent_button_fab.setOnClickListener {
-            val intent = Intent(this@MainActivity, FloatingActionButtonActivity::class.java)
+        button_call_activity_floating_action_button.setOnClickListener {
+            val intent = Intent(this, FloatingActionButtonActivity::class.java)
+            startActivity(intent)
+        }
+    }
+
+    private fun callIntentSingleLineTextField() {
+        button_call_activity_single_line_text_field.setOnClickListener {
+            val intent = Intent(this, SingleLineTextFieldActivity::class.java)
+            startActivity(intent)
+        }
+    }
+
+    private fun callIntentMultiLineTextField() {
+        button_call_activity_multi_line_text_field.setOnClickListener {
+            val intent = Intent(this, MultiLineTextFieldActivity::class.java)
             startActivity(intent)
         }
     }

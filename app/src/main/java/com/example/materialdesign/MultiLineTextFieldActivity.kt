@@ -2,7 +2,6 @@ package com.example.materialdesign
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.Toast
 import kotlinx.android.synthetic.main.activity_multi_line_text_field.*
 
 class MultiLineTextFieldActivity : AppCompatActivity() {
@@ -15,13 +14,9 @@ class MultiLineTextFieldActivity : AppCompatActivity() {
     }
 
     private fun setDadosView() {
-        val intent = getIntent()
-        val nome = intent.getStringExtra("nome")
-//        val labelNomeUsuario = txtlabelNomeUsuario
-
-        Toast.makeText(this@MultiLineTextFieldActivity, "Resgatando a referência '" + nome + "' passada na Activity SingleLineTextFieldActivity", Toast.LENGTH_SHORT).show()
+        val nome = getIntent().getStringExtra("nome")
 
         // Setando a informação na label
-        // labelNomeUsuario.text = nome
+        txtlabelNomeUsuario.text = nome
     }
 }

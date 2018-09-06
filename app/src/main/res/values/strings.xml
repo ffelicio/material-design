@@ -1,9 +1,15 @@
 <resources>
     <string name="app_name">MaterialDesign</string>
 
+    <!-- Geral -->
+    <string name="labelBotaoRetornarMainActivity">Voltar</string>
+
     <!-- MainActivity -->
-    <string name="txtApresentacao">MD - Button</string>
-    <string name="txtBotaoFloatingActionButton">Botão - FAB</string>
+    <string name="txtApresentacao">Estudos - Material Design</string>
+    <string name="labelBotaoFloatingActionButton">Float Action Button</string>
+    <string name="labelBotaoSingleTextField">Single Text Field</string>
+    <string name="labelBotaoMultiLineText">Multi Line Text</string>
+    <string name="labelBotaoFullWidthText">Full Width Text</string>
 
     <!-- FloatingActionButtonActivity -->
     <string name="txtApresentacaoBotaoFloatingActionButton">MD - Button FAB</string>
