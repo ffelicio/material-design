@@ -19,7 +19,8 @@
         <activity android:name=".FloatingActionButtonActivity" />
         <activity android:name=".SingleLineTextFieldActivity" />
         <activity android:name=".MultiLineTextFieldActivity" />
-        <activity android:name=".FullWidthTextField"></activity>
+        <activity android:name=".FullWidthTextField" />
+        <activity android:name=".FLoatingLabelsActivity"></activity>
     </application>
 
 </manifest>

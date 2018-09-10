@@ -19,6 +19,7 @@ class MainActivity : AppCompatActivity() {
         callIntentSingleLineTextField()
         callIntentMultiLineTextField()
         callIntentFullWidthTextField()
+        callIntentFloatingLabelsField()
     }
 
     // Chamando a activity com a referência Floating Action Button
@@ -46,6 +47,13 @@ class MainActivity : AppCompatActivity() {
     private fun callIntentFullWidthTextField() {
         button_call_activity_full_width_text_field.setOnClickListener {
             val intent = Intent(this, FullWidthTextField::class.java)
+            startActivity(intent)
+        }
+    }
+
+    private fun callIntentFloatingLabelsField() {
+        button_call_activity_floating_labels.setOnClickListener {
+            val intent = Intent(this, FLoatingLabelsActivity::class.java)
             startActivity(intent)
         }
     }

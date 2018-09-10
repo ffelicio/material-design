@@ -11,6 +11,14 @@
     <string name="labelButtonSingleTextField">Single Text Field</string>
     <string name="labelButtonMultiLineText">Multi Line Text</string>
     <string name="labelButtonFullWidthText">Full Width Text</string>
+    <string name="labelButtonFloatingLabels">Floating Labels</string>
+    <string name="labelButtonUserInputErrors">User Input Errors</string>
+    <string name="labelButtonCharacterCounter">Character Counter</string>
+    <string name="labelButtonPasswordToggle">Password Toggle</string>
+    <string name="labelButtonDialog">Dialog</string>
+    <string name="labelButtonSnackBarsAndToasts">Snack Bars / Toasts</string>
+    <string name="labelButtonCards">Cards</string>
+    <string name="labelButtonToolbars">Toolbars</string>
 
     <!-- FloatingActionButtonActivity -->
     <string name="txtPresentationButtonFloatingActionButton">MD - Button FAB</string>
@@ -30,4 +38,8 @@
     <!-- FullWidthTextField -->
     <string name="txtPresentationFullWidthTextField">MD - Full Width Text Field</string>
     <string name="txtHintFullWidthText">Hint Full Width Edit Text</string>
+
+    <!-- FloatingLabelsActivity -->
+    <string name="txtPresentationFloatingLabelsTextField">MD - Floating Labels</string>
+    <string name="txtHintFloatingLabelsTextField">Title</string>
 </resources>

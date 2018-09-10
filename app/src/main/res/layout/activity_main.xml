@@ -23,11 +23,13 @@
 
     <Button
         android:id="@+id/button_call_activity_floating_action_button"
-        android:layout_width="180dp"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="4dp"
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
         android:text="@string/labelButtonFloatingActionButton"
+        app:layout_constraintEnd_toStartOf="@+id/button_call_activity_single_line_text_field"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 
@@ -36,7 +38,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="16dp"
         android:layout_marginEnd="4dp"
         android:text="@string/labelButtonSingleTextField"
         app:layout_constraintEnd_toEndOf="parent"
@@ -45,12 +47,13 @@
 
     <Button
         android:id="@+id/button_call_activity_multi_line_text_field"
-        android:layout_width="180dp"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="4dp"
         android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
         android:text="@string/labelButtonMultiLineText"
-        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintEnd_toStartOf="@+id/button_call_activity_full_width_text_field"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button_call_activity_floating_action_button" />
 
@@ -65,5 +68,101 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/button_call_activity_multi_line_text_field"
         app:layout_constraintTop_toBottomOf="@+id/button_call_activity_single_line_text_field" />
+
+    <Button
+        android:id="@+id/button_call_activity_floating_labels"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:text="@string/labelButtonFloatingLabels"
+        app:layout_constraintEnd_toStartOf="@+id/button_user_input_errors_activity"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_call_activity_multi_line_text_field" />
+
+    <Button
+        android:id="@+id/button_user_input_errors_activity"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="4dp"
+        android:text="@string/labelButtonUserInputErrors"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/button_call_activity_floating_labels"
+        app:layout_constraintTop_toBottomOf="@+id/button_call_activity_full_width_text_field" />
+
+    <Button
+        android:id="@+id/button_character_counter_activity"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:text="@string/labelButtonCharacterCounter"
+        app:layout_constraintEnd_toStartOf="@+id/button_password_toggle_activity"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_call_activity_floating_labels" />
+
+    <Button
+        android:id="@+id/button_password_toggle_activity"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="4dp"
+        android:text="@string/labelButtonPasswordToggle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/button_character_counter_activity"
+        app:layout_constraintTop_toBottomOf="@+id/button_user_input_errors_activity" />
+
+    <Button
+        android:id="@+id/button_dialog_activity"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:text="@string/labelButtonDialog"
+        app:layout_constraintEnd_toStartOf="@+id/button_snack_bars_and_toasts_activity"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_character_counter_activity" />
+
+    <Button
+        android:id="@+id/button_snack_bars_and_toasts_activity"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="4dp"
+        android:text="@string/labelButtonSnackBarsAndToasts"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/button_dialog_activity"
+        app:layout_constraintTop_toBottomOf="@+id/button_password_toggle_activity" />
+
+    <Button
+        android:id="@+id/button_cards_activity"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:text="@string/labelButtonCards"
+        app:layout_constraintEnd_toStartOf="@+id/button_toolbars_activity"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_dialog_activity" />
+
+    <Button
+        android:id="@+id/button_toolbars_activity"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="4dp"
+        android:text="@string/labelButtonToolbars"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/button_cards_activity"
+        app:layout_constraintTop_toBottomOf="@+id/button_snack_bars_and_toasts_activity" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
