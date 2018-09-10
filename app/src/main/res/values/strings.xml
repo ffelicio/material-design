@@ -2,8 +2,8 @@
     <string name="app_name">MaterialDesign</string>
 
     <!-- General -->
-    <string name="labelButtonReturnToMainActivity">Voltar</string>
-    <string name="labelButtonShowInformation">Mostrar dados</string>
+    <string name="labelButtonReturnToMainActivity">Return to menu</string>
+    <string name="labelButtonShowInformation">Show data</string>
 
     <!-- MainActivity -->
     <string name="txtPresentation">Estudos - Material Design</string>
@@ -26,4 +26,8 @@
 
     <!-- MultiLineTextFieldActivity -->
     <string name="txtPresentationMultilineTextField">MD - Multi Line Text Field</string>
+
+    <!-- FullWidthTextField -->
+    <string name="txtPresentationFullWidthTextField">MD - Full Width Text Field</string>
+    <string name="txtHintFullWidthText">Hint Full Width Edit Text</string>
 </resources>

@@ -18,7 +18,8 @@
         </activity>
         <activity android:name=".FloatingActionButtonActivity" />
         <activity android:name=".SingleLineTextFieldActivity" />
-        <activity android:name=".MultiLineTextFieldActivity"></activity>
+        <activity android:name=".MultiLineTextFieldActivity" />
+        <activity android:name=".FullWidthTextField"></activity>
     </application>
 
 </manifest>
